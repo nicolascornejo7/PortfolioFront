@@ -1,6 +1,32 @@
-footer{
+body {
+    margin: 0;
+    background-color:lightsalmon;
+}
+
+:root {
+    --main-color: white;
+
+}
+
+.bg {
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.bg-text {
+    color: var(--main-color)
+}
+
+footer {
     background: black;
     padding: 20px 0;
-    color: white;
+    color: var(--main-color);
     margin-top: 40px;
+}
+
+.home {
+    background-image: url("/imges/home.jpg");
 }
