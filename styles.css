@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color:lightsalmon;
+    background-color: lightsalmon;
 }
 
 :root {
@@ -14,10 +14,23 @@ body {
     height: 100vh;
     background-size: cover;
     box-sizing: border-box;
+    filter: blur(8px);
 }
 
 .bg-text {
-    color: var(--main-color)
+    color: var(--main-color);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-family: "Rubik Mono One";
+
 }
 
 footer {
