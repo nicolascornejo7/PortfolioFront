@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: lightsalmon;
+    background-color: lightslategray;
 }
 
 :root {
@@ -29,7 +29,23 @@ body {
     width: 80%;
     padding: 20px;
     text-align: center;
-    font-family: "Rubik Mono One";
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+
+}
+
+.custom-section {
+    padding-top: 50px;
+}
+
+.nc1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-text {
+    font-family: 'Playfair Display', serif;
 
 }
 
